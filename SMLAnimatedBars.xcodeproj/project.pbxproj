@@ -22,6 +22,7 @@
 		1A01349B198980DB00800018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A01347A198980DA00800018 /* UIKit.framework */; };
 		1A0134A3198980DB00800018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0134A1198980DB00800018 /* InfoPlist.strings */; };
 		1A0134A5198980DB00800018 /* SMLAnimatedBarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0134A4198980DB00800018 /* SMLAnimatedBarsTests.m */; };
+		1A0134B0198980F600800018 /* SMLAnimatedBarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0134AF198980F600800018 /* SMLAnimatedBarsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		1A0134A0198980DB00800018 /* SMLAnimatedBarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMLAnimatedBarsTests-Info.plist"; sourceTree = "<group>"; };
 		1A0134A2198980DB00800018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A0134A4198980DB00800018 /* SMLAnimatedBarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMLAnimatedBarsTests.m; sourceTree = "<group>"; };
+		1A0134AE198980F600800018 /* SMLAnimatedBarsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLAnimatedBarsView.h; sourceTree = "<group>"; };
+		1A0134AF198980F600800018 /* SMLAnimatedBarsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLAnimatedBarsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				1A01348F198980DA00800018 /* ViewController.m */,
 				1A013491198980DB00800018 /* Images.xcassets */,
 				1A01347D198980DA00800018 /* Supporting Files */,
+				1A0134AE198980F600800018 /* SMLAnimatedBarsView.h */,
+				1A0134AF198980F600800018 /* SMLAnimatedBarsView.m */,
 			);
 			path = SMLAnimatedBars;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				1A013490198980DA00800018 /* ViewController.m in Sources */,
 				1A013487198980DA00800018 /* AppDelegate.m in Sources */,
+				1A0134B0198980F600800018 /* SMLAnimatedBarsView.m in Sources */,
 				1A013483198980DA00800018 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
